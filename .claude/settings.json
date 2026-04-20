@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(credentials.json)",
+      "Read(auth/*)",
+      "Read(data/*)"
+    ]
+  }
+}
