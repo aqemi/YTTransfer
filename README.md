@@ -107,7 +107,7 @@ npx yttransfer import playlists
 
 run them in any order!! each one reads from the json files and imports to your dest account.
 
-> **Watch Later cannot be migrated.** YouTube's API explicitly blocks access to the Watch Later playlist — it can't be read or written via the API regardless of OAuth scope. you'll have to re-add those videos manually on the dest account. sorry!!
+> **Watch Later cannot be migrated.** YouTube's API explicitly blocks access to the Watch Later playlist — it can't be read or written via the API regardless of OAuth scope. You can, however, copy all the videos in your Watch Later playlist to another playlist using YouTube's 'Add all to...' action [on the Watch Later page](https://www.youtube.com/playlist?list=WL) before running the export.
 
 > **Some liked videos can't be liked back.** If a video's owner has disabled ratings, the API returns a `videoRatingDisabled` error and liking is impossible. instead of failing, the tool automatically creates a private playlist called **"Failed to Like (ratings disabled)"** on the dest account and adds those videos there so you don't lose track of them!!
 
