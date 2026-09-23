@@ -55,8 +55,11 @@ if yours looks like that: PERFECT!! if not: go back and make sure you chose **De
 
 ## installation
 
-you need **Node.js 18+**. then:
+you need **Node.js 22+**. then install deps with whichever package manager you like:
 
+```bash
+pnpm install   # recommended — the repo ships a pnpm-lock.yaml
+```
 ```bash
 npm install
 ```
